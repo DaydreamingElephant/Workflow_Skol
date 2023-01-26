@@ -1,0 +1,17 @@
+name: workflow_study
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - python>=3.8
+  - mamba
+  - pip
+  - cython
+  - snakemake
+  - bwa=0.7.17-r1188
+  - trimmomatic
+  - samtools=1.14
+  - bcftools
+  - multiqc=1.13=pyhdfd78af_0
+  - fastqc
