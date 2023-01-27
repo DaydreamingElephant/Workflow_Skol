@@ -5,5 +5,7 @@ This project has three branches:
 - Main/master branch with the description, enviroment configuration and barren of anything else. Please use conda and enter `conda env create -f envs/environment.yml` - it has everything necessary for both approaches.
 - Bash branch where automation is achieved using core bash script functionality. 
 - Snakemake branch which employs [snakemake](https://doi.org/10.1093/bioinformatics/bts480) pipeline management package for the same processes.
+## This branch
+Compared to provided files, included samtools into BWA .env file, altered raw reads handling because I have them uncompressed, ran the pipeline and uploaded .vcf with obtained results that differ from those gained from Bash branch.
 ## Contacts
 Hit the author up at my [twitter](https://twitter.com/Serge_Bus).
